@@ -1,0 +1,179 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:200,400,700|Poppins:300,400,500,700|Kumbh+Sans:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 25px;
+  color: #010C13;
+  background-color: #FCFCFC;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+  color: #010C13;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.mainline {
+  margin: 50px 50px;
+}
+
+.changing-word {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 30px;
+}
+
+.Top-container {
+  margin: 0px 15px;
+}
+
+.Center-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  margin: 15px 15px;
+  text-align: center;
+}
+
+* {
+    margin: 0px auto;
+}
+
+.Header {
+  margin: 0 auto;
+  height: 40px;
+  width: 100%;
+  display: inline;
+  vertical-align: center;
+}
+
+.Header-left {
+  float: left;
+}
+
+.Header-center {
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: top;
+}
+
+.Header-right {
+  float: right;
+}
+
+.list-inline {
+  list-style: none;
+  display: inline-block;
+  vertical-align: center;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin: 5px;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 5px;
+}
+
+.list-inline i {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.list-inline i:hover {
+  color: #28282a;
+}
+
+p {
+  margin: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #010C13;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 3px
+
+}
+
+a:hover {
+  transition: fill 170ms ease-in-out;
+}
+
+.box {
+  border: 2px solid #010C13;
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.box:hover {
+  background-color: #010C13;
+  color: white;
+  transition: fill 170ms ease-in-out;
+}
+
+.profile-pic {
+  margin-top: 75px;
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  box-shadow: 0px 0px 20px 1px #444444;
+  border: 3px solid #EFF1ED;
+}
+
+.contact {
+  margin: 20px;
+}
+
+span:before {
+  content: '. . .';
+  animation: animate infinite 8s;
+}
+
+@keyframes animate {
+  0%
+  {
+  content: '. . .';
+  }
+  25%
+  {
+  content: 'business administrator';
+  }
+  50%
+  {
+  content: 'web developer';
+  }
+  75%
+  {
+  content: 'design thinker';
+  }
+  100%
+  {
+  content: 'product owner';
+  }
+}
+
+.margins{
+  margin: 15px 5px;
+}
